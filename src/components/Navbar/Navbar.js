@@ -49,7 +49,7 @@ const Navbar = () => {
               <NavbarContainer>
                   <NavLogo to="/" onClick={closeMobileMenu}>
                     <NavIcon />
-                    COMPANY
+                    Tunnexus
                   </NavLogo>
                   <MobileIcon onClick={handleClick}>
                     {click ? <FaTimes /> : <FaBars />}
